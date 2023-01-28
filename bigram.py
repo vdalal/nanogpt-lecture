@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+# https://www.youtube.com/watch?v=kCc8FmEb1nY
+# https://github.com/karpathy/ng-video-lecture
+
 # hyperparameters
 batch_size = 32 # how many independent sequences will we process in parallel?
 block_size = 8 # what is the maximum context length for predictions?
